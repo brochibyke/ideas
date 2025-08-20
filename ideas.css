@@ -29,8 +29,10 @@
   margin-top: -12px;
   margin-bottom: -16px;
  }
-  p {
+ #first-para {
   width: 350px;
+ }
+  p {
   line-height: 24px;
   color: #585858;
   margin-bottom: 25px;
@@ -57,6 +59,25 @@
   font-size: 12px;
    color: #585858;
  }
- /* #image-container {
-  padding-left: 40px;
- } */
+
+ .second {
+  display: flex;
+  justify-content: center;
+ }
+
+ .content{
+  display: flex;
+  /* width: 750px; */
+  justify-content: space-between; 
+ }
+  .content > div {
+  width: 400px;
+  padding-right: 30px;
+ }
+ h5{
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-size: 30px;
+ }
+
+
