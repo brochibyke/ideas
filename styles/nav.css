@@ -1,0 +1,60 @@
+nav {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  padding : 20px 0px;
+}
+nav > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:60%;
+}
+nav .menus {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+nav .menus a {
+  text-decoration: none;
+  color: #818181;
+  font-size: 15px;
+}
+nav .menus a:hover {
+  color: black;
+}
+nav .menus a.active {
+  color: #f99600;
+}
+/* nav img {
+  display:block;
+  margin-bottom: -15px;
+} */
+nav span {
+  text-transform: uppercase;
+  display: block;
+  margin-top: -15px;
+}
+.drop-down {
+  position: relative;
+}
+.drop-down .drop-down-content {
+  display:none;
+  position:absolute;
+  left: -50px;
+  /* top: -50px; */
+  z-index: 1;
+  background-color: black;
+  padding: 10px 12px;
+  min-width: 250px;
+}
+.drop-down .drop-down-content a {
+  color: white;
+  font-size: 20px;
+  display: block;
+
+}
+.drop-down:hover .drop-down-content {
+  display: block;
+}

@@ -1,0 +1,33 @@
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #eeeeee;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  margin-top: 150px;
+ }
+ #main-footer {
+  width: 950px;
+  display: flex;
+  justify-content: space-between;
+
+ }
+ .icon-container {
+  display: flex;
+ }
+ .fa {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 20px;
+  text-align: center;
+ }
+ .fa:hover {
+  opacity: 0.6;
+ }
+ #main-footer div span {
+  color: #585858;
+  font-size: 12px;
+ }
