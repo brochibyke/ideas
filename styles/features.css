@@ -1,0 +1,42 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+  margin:0px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  
+}
+.content {
+  width: 830px;
+}
+.second {
+  display: flex;
+  justify-content: space-between;
+
+}
+.second div img {
+padding-top: 60px;
+}
+
+.second-content {
+  padding-left: 20px;
+}
+
+.third {
+  display: flex;
+  justify-content: space-between;
+}
+.third div img{
+  padding-top: 60px;
+}
+.third-content div p{
+  width: 570px;
+}
+.third-content {
+  padding-left: 20px;
+}
